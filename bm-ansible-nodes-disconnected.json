@@ -10,7 +10,7 @@
             "vbmc_pre_cmd": "",
             "vbmc_ip": "192.168.201.114",
             "vbmc_port": "623",
-            "baremetal_ip": "192.168.203.50",
+            "baremetal_ip": "192.168.133.50",
             "provisioning_ip": "192.168.201.50",
             "baremetal_last": "50"
         }
@@ -26,7 +26,7 @@
             "vbmc_pre_cmd": "",
             "vbmc_ip": "192.168.201.115",
             "vbmc_port": "623",
-            "baremetal_ip": "192.168.203.254",
+            "baremetal_ip": "192.168.133.254",
             "provisioning_ip": "192.168.201.254"
         }
      ],
@@ -43,7 +43,7 @@
             "vbmc_pre_cmd": "",
             "vbmc_ip": "192.168.201.102",
             "vbmc_port": "623",
-            "baremetal_ip": "192.168.203.53",
+            "baremetal_ip": "192.168.133.53",
             "baremetal_last": "53"
         },
         {
@@ -58,7 +58,7 @@
             "vbmc_pre_cmd": "",
             "vbmc_ip": "192.168.201.103",
             "vbmc_port": "623",
-            "baremetal_ip": "192.168.203.54",
+            "baremetal_ip": "192.168.133.54",
             "baremetal_last": "54"
         },
         {
@@ -73,7 +73,7 @@
             "vbmc_pre_cmd": "",
             "vbmc_ip": "192.168.201.104",
             "vbmc_port": "623",
-            "baremetal_ip": "192.168.203.55",
+            "baremetal_ip": "192.168.133.55",
             "baremetal_last": "55"
         }
     ],
@@ -91,7 +91,7 @@
             "vbmc_pre_cmd": "",
             "vbmc_ip": "192.168.201.13",
             "vbmc_port": "623",
-            "baremetal_ip": "192.168.203.56",
+            "baremetal_ip": "192.168.133.56",
             "baremetal_last": "56"
         },
         {
@@ -107,7 +107,7 @@
             "vbmc_pre_cmd": "",
             "vbmc_ip": "192.168.201.14",
             "vbmc_port": "623",
-            "baremetal_ip": "192.168.203.57",
+            "baremetal_ip": "192.168.133.57",
             "baremetal_last": "57"
         },
         {
@@ -123,7 +123,7 @@
             "vbmc_pre_cmd": "",
             "vbmc_ip": "192.168.201.117",
             "vbmc_port": "623",
-            "baremetal_ip": "192.168.203.58",
+            "baremetal_ip": "192.168.133.58",
             "baremetal_last": "58"
         }
     ]

@@ -1,7 +1,7 @@
 - name:  Prepare Hypervisor
   hosts: kvmhost
   become: True
-  become_user: ric
+  become_user: root
   vars_files:
     - variables.yaml
     - bm-ansible-nodes.json

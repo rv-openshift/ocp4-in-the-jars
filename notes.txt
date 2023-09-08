@@ -168,3 +168,5 @@ ERROR
 FATAL failed to fetch Cluster: failed to generate asset "Cluster": failed to create cluster: failed to apply Terraform: error(BaremetalIronicAPITimeout) from Infrastructure Provider: Unable to the reach provisioning service. This failure can be caused by incorrect network/proxy settings, inability to download the machine operating system images, or other misconfiguration. Please check access to the bootstrap host, and for any failing services.
 
 ~~~
+
+ansible-playbook -i host prepare-hypervisor.yaml --become-user=ric --become-method=su --extra-vars "@cvars.yaml"
