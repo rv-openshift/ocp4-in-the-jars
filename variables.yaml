@@ -17,7 +17,7 @@ provision_net:
   net_interface: ens192
   dhcp_start: 192.168.99.140
   dhcp_end: 192.168.99.160
-  bridge_prov_ip: 192.168.99.2
+  bridge_prov_ip: 192.168.99.1
   mtu: 1500
 baremetal_net:
   net: 192.168.133.0
