@@ -11,29 +11,29 @@ redfish:
   auth_file: /etc/sushy-emulator/auth_file
   enable_nat: True
 provision_net:
-  net: 192.168.201.0
+  net: 10.190.0.0
   netmask: 255.255.255.0
   prefix: 24
   net_interface: enp1s0
-  dhcp_start: 192.168.201.140
-  dhcp_end: 192.168.201.160
-  bridge_prov_ip: 192.168.201.1
+  dhcp_start: 10.190.0.140
+  dhcp_end: 10.190.0.160
+  bridge_prov_ip: 10.190.0.1
   mtu: 1500
 baremetal_net:
-  net: 192.168.133.0
+  net: 10.188.0.0
   netmask: 255.255.255.0
   prefix: 24
-  reverse: 133.168.192
-  gateway: 192.168.133.1
-  ntp: "192.95.27.155,68.69.221.61"
-  dhcp_start: 192.168.133.90
-  dhcp_end: 192.168.133.110
+  reverse: 0.190.10
+  gateway: 10.188.0.1
+  ntp: "207.34.48.31,162.159.200.1"
+  dhcp_start: 10.188.0.90
+  dhcp_end: 10.188.0.110
   mtu: 1500
   vlan: 2003
 vip:
-  api: 192.168.133.80
-  apiint: 192.168.133.80
-  apps: 192.168.133.81
+  api: 10.188.0.80
+  apiint: 10.188.0.80
+  apps: 10.188.0.81
   apilast: 80
   apiintlast: 80
 utility:
