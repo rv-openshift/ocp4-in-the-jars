@@ -169,4 +169,4 @@ FATAL failed to fetch Cluster: failed to generate asset "Cluster": failed to cre
 
 ~~~
 
-ansible-playbook -i host prepare-hypervisor.yaml --become-user=root --become-method=su --extra-vars "@cvars.yaml"
+ ansible-playbook -i host prepare-hypervisor.yaml --become-user=root --become-method=su --extra-vars "@cvars.yaml" --extra-vars "secure_password=ric"
