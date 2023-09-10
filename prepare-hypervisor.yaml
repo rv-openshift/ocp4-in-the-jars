@@ -875,7 +875,7 @@
   - name: clone repo
     shell: |
       cd /root
-      git clone https://github.com/amedeos/ocp4-in-the-jars
+       git clone https://github.com/rv-openshift/ocp4-in-the-jars.git --branch desktop
       cd /root/ocp4-in-the-jars
       git pull
     ignore_errors: True
