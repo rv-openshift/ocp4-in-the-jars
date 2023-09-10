@@ -23,8 +23,8 @@ baremetal_net:
   net: 192.168.133.0
   netmask: 255.255.255.0
   prefix: 24
-  reverse: 0.188.10
-  gateway: 192.168.133.1
+  reverse: 133.168.192
+  gateway: 192.168.133.2
   ntp: "207.34.48.31,162.159.200.1"
   dhcp_start: 192.168.133.90
   dhcp_end: 192.168.133.110
@@ -42,7 +42,7 @@ utility:
   disk: 100G
 bastion:
   cpu: 2
-  memory: 4096
+  memory: 3072
   disk: 100G
   post_cpu: 2
   post_memory: 4096
