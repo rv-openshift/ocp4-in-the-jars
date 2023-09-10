@@ -47,24 +47,7 @@
             "redfish_port": "8000",
             "baremetal_ip": "192.168.133.60",
             "baremetal_last": "53"
-        },
-        {
-            "name": "master-1",
-            "state": "present",
-            "hypervisor_name": "centos01.example.ca",
-            "hypervisor_user": "root",
-            "hypervisor_ssh_key": "~/.ssh/id_rsa",
-            "hypervisor_image_dir": "/var/lib/libvirt/images",
-            "provisioning_mac": "52:54:00:00:32:01",
-            "baremetal_mac": "52:54:00:00:33:01",
-            "vbmc_pre_cmd": "",
-            "vbmc_ip": "192.168.99.103",
-            "vbmc_port": "623",
-            "redfish_ip": "192.168.133.3",
-            "redfish_port": "8000",
-            "baremetal_ip": "192.168.133.60",
-            "baremetal_last": "54"
-        }
+        }       
     ],
     "worker_nodes": [
         {
