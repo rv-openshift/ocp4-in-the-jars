@@ -10,8 +10,8 @@
             "vbmc_pre_cmd": "",
             "vbmc_ip": "10.190.0.114",
             "vbmc_port": "623",
-            "baremetal_ip": "10.188.0.60",
-            "provisioning_ip": "10.190.0.60",
+            "baremetal_ip": "10.188.0.5",
+            "provisioning_ip": "10.190.0.6",
             "baremetal_last": "50"
         }
      ],
@@ -26,8 +26,8 @@
             "vbmc_pre_cmd": "",
             "vbmc_ip": "10.190.0.115",
             "vbmc_port": "623",
-            "baremetal_ip": "10.188.0.60",
-            "provisioning_ip": "10.190.0.60"
+            "baremetal_ip": "10.188.0.5",
+            "provisioning_ip": "10.190.0.6"
         }
      ],
     "master_nodes": [
@@ -38,14 +38,14 @@
             "hypervisor_user": "root",
             "hypervisor_ssh_key": "~/.ssh/id_rsa",
             "hypervisor_image_dir": "/var/lib/libvirt/images",
-            "provisioning_mac": "52:54:00:00:32:00",
-            "baremetal_mac": "52:54:00:00:33:00",
+            "provisioning_mac": "42:01:0a:be:00:06",
+            "baremetal_mac": "42:01:0a:bc:00:05",
             "vbmc_pre_cmd": "",
             "vbmc_ip": "10.190.0.102",
             "vbmc_port": "623",
             "redfish_ip": "10.188.0.3",
             "redfish_port": "8000",
-            "baremetal_ip": "10.188.0.60",
+            "baremetal_ip": "10.188.0.5",
             "baremetal_last": "53"
         }       
     ],
@@ -58,14 +58,14 @@
             "hypervisor_user": "root",
             "hypervisor_ssh_key": "~/.ssh/id_rsa",
             "hypervisor_image_dir": "/var/lib/libvirt/images",
-            "provisioning_mac": "52:54:00:00:32:00",
-            "baremetal_mac": "52:54:00:00:33:00",
+            "provisioning_mac": "42:01:0a:be:00:06",
+            "baremetal_mac": "42:01:0a:bc:00:05",
             "vbmc_pre_cmd": "",
             "vbmc_ip": "10.190.0.13",
             "vbmc_port": "623",
             "redfish_ip": "10.188.0.4",
             "redfish_port": "8000",
-            "baremetal_ip": "10.188.0.60",
+            "baremetal_ip": "10.188.0.5",
             "baremetal_last": "56"
         },
         {
@@ -76,14 +76,14 @@
             "hypervisor_user": "root",
             "hypervisor_ssh_key": "~/.ssh/id_rsa",
             "hypervisor_image_dir": "/var/lib/libvirt/images",
-            "provisioning_mac": "52:54:00:00:32:00",
-            "baremetal_mac": "52:54:00:00:33:00",
+            "provisioning_mac": "42:01:0a:be:00:06",
+            "baremetal_mac": "42:01:0a:bc:00:05",
             "vbmc_pre_cmd": "",
             "vbmc_ip": "10.190.0.14",
             "vbmc_port": "623",
             "redfish_ip": "10.188.0.4",
             "redfish_port": "8000",
-            "baremetal_ip": "10.188.0.60",
+            "baremetal_ip": "10.188.0.5",
             "baremetal_last": "57"
         }
     ]
