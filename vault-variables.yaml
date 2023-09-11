@@ -4,9 +4,9 @@ delete_ssh_key_on_cleanup: True
 ### password used when one is sequired, for example ssh password
 secure_password: MOSTINSECUREPASSWORD
 ### your red hat customer portal username and password
-rh_subcription_user: <YOURRHUSERNAME>
-rh_subcription_password: <YOURRHPASSWORD>
+rh_subcription_user: ricarte@riccloudcoach.com
+rh_subcription_password: Joanrick@3121
 ### red hat subscription pool id for rhel
-rh_subcription_pool: <YOURRHPOOLID>
+rh_subcription_pool: 2c94c949859c14bc0185a12cce70082f
 ### if you use duckdns put here your token
 duckdns_token: <YOURDUCKDNSTOKEN>
