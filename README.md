@@ -52,7 +52,7 @@ Example configuration for your L2+L3 switch with baremetal network:
 
 | VLAN | Name | Subnet | Native | Bridge | Gateway |
 | ---- | ---- | ------ | ------ | ------ | ------- |
-| 2003 | Baremetal | 192.168.133.0/24 | | bm | 192.168.133.1 |
+| 2003 | Baremetal | 10.188.0.0/24 | | bm | 10.188.0.1 |
 
 #### Provisioning and baremetal networks
 In this case, you'll use both provisioning and baremetal networks using two Linux bridges for OpenShift, which is **prov** for provisioning network (must be native VLAN), and **bm** for baremetal network, this could be a VLAN (in my case VLAN 2003), but you can adapt to your needs. If you want to use both provisioning and baremetal networks, you have to set up **virtualbmc** on each NUC host in order to use ipmi emulator.
@@ -64,7 +64,7 @@ For example, if you have, like me, only one network adapter, and you want to cre
 | VLAN | Name | Subnet | Native | Bridge | Gateway |
 | ---- | ---- | ------ | ------ | ------ | ------- |
 | 2001 | Provisioning | 192.168.201.0/24 | True | prov | 192.168.201.1 |
-| 2003 | Baremetal | 192.168.133.0/24 | | bm | 192.168.133.1 |
+| 2003 | Baremetal | 10.188.0.0/24 | | bm | 10.188.0.1 |
 
 #### Example bridges configuration
 Below you can find some linux bridges configuration.
@@ -163,7 +163,7 @@ For example, if you want to install the bastion on the NUC host **pippo01.exampl
             "vbmc_pre_cmd": "",
             "vbmc_ip": "192.168.201.114",
             "vbmc_port": "623",
-            "baremetal_ip": "192.168.133.50",
+            "baremetal_ip": "10.188.0.50",
             "provisioning_ip": "192.168.201.50",
             "baremetal_last": "50"
         }
@@ -187,9 +187,9 @@ otherwise, if you want to deploy the master-2 on the NUC host **pippo02.example.
             "vbmc_pre_cmd": "",
             "vbmc_ip": "192.168.201.104",
             "vbmc_port": "623",
-            "redfish_ip": "192.168.133.1",
+            "redfish_ip": "10.188.0.1",
             "redfish_port": "8000",
-            "baremetal_ip": "192.168.133.55",
+            "baremetal_ip": "10.188.0.55",
             "baremetal_last": "55"
         }
     ]

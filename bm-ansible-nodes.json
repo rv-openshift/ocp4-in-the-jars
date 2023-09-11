@@ -8,10 +8,10 @@
             "hypervisor_ssh_key": "~/.ssh/id_rsa",
             "hypervisor_image_dir": "/var/lib/libvirt/images",
             "vbmc_pre_cmd": "",
-            "vbmc_ip": "192.168.99.114",
+            "vbmc_ip": "10.190.0.114",
             "vbmc_port": "623",
-            "baremetal_ip": "192.168.133.60",
-            "provisioning_ip": "192.168.99.60",
+            "baremetal_ip": "10.188.0.60",
+            "provisioning_ip": "10.190.0.60",
             "baremetal_last": "50"
         }
      ],
@@ -24,10 +24,10 @@
             "hypervisor_ssh_key": "~/.ssh/id_rsa",
             "hypervisor_image_dir": "/var/lib/libvirt/images",
             "vbmc_pre_cmd": "",
-            "vbmc_ip": "192.168.99.115",
+            "vbmc_ip": "10.190.0.115",
             "vbmc_port": "623",
-            "baremetal_ip": "192.168.133.60",
-            "provisioning_ip": "192.168.99.60"
+            "baremetal_ip": "10.188.0.60",
+            "provisioning_ip": "10.190.0.60"
         }
      ],
     "master_nodes": [
@@ -41,11 +41,11 @@
             "provisioning_mac": "52:54:00:00:32:00",
             "baremetal_mac": "52:54:00:00:33:00",
             "vbmc_pre_cmd": "",
-            "vbmc_ip": "192.168.99.102",
+            "vbmc_ip": "10.190.0.102",
             "vbmc_port": "623",
-            "redfish_ip": "192.168.133.3",
+            "redfish_ip": "10.188.0.3",
             "redfish_port": "8000",
-            "baremetal_ip": "192.168.133.60",
+            "baremetal_ip": "10.188.0.60",
             "baremetal_last": "53"
         }       
     ],
@@ -61,11 +61,11 @@
             "provisioning_mac": "52:54:00:00:32:00",
             "baremetal_mac": "52:54:00:00:33:00",
             "vbmc_pre_cmd": "",
-            "vbmc_ip": "192.168.99.13",
+            "vbmc_ip": "10.190.0.13",
             "vbmc_port": "623",
-            "redfish_ip": "192.168.133.4",
+            "redfish_ip": "10.188.0.4",
             "redfish_port": "8000",
-            "baremetal_ip": "192.168.133.60",
+            "baremetal_ip": "10.188.0.60",
             "baremetal_last": "56"
         },
         {
@@ -79,11 +79,11 @@
             "provisioning_mac": "52:54:00:00:32:00",
             "baremetal_mac": "52:54:00:00:33:00",
             "vbmc_pre_cmd": "",
-            "vbmc_ip": "192.168.99.14",
+            "vbmc_ip": "10.190.0.14",
             "vbmc_port": "623",
-            "redfish_ip": "192.168.133.4",
+            "redfish_ip": "10.188.0.4",
             "redfish_port": "8000",
-            "baremetal_ip": "192.168.133.60",
+            "baremetal_ip": "10.188.0.60",
             "baremetal_last": "57"
         }
     ]
