@@ -78,7 +78,7 @@ $ nmcli connection modify prov bridge.stp no
 $ nmcli connection modify prov ipv4.addresses 192.168.201.110/24
 $ nmcli connection modify prov ipv4.gateway 192.168.201.1
 $ nmcli connection modify prov ipv4.dns '1.1.1.1'
-$ nmcli connection modify prov ipv4.dns-search 'example.com'
+$ nmcli connection modify prov ipv4.dns-search 'example.ca'
 $ nmcli connection modify prov ipv4.method manual
 $ nmcli connection down prov ; nmcli connection up prov
 ```
@@ -156,7 +156,7 @@ For example, if you want to install the bastion on the NUC host **pippo01.exampl
         {
             "name": "bastion",
             "state": "present",
-            "hypervisor_name": "pippo01.example.com",
+            "hypervisor_name": "pippo01.example.ca",
             "hypervisor_user": "root",
             "hypervisor_ssh_key": "~/.ssh/id_rsa",
             "hypervisor_image_dir": "/var/lib/libvirt/images",
@@ -170,7 +170,7 @@ For example, if you want to install the bastion on the NUC host **pippo01.exampl
     ]
 ```
 
-otherwise, if you want to deploy the master-2 on the NUC host **pippo02.example.com** configure bm-ansible-nodes.json with the following lines:
+otherwise, if you want to deploy the master-2 on the NUC host **pippo02.example.ca** configure bm-ansible-nodes.json with the following lines:
 
 ```json
     "master_nodes": [
@@ -178,7 +178,7 @@ otherwise, if you want to deploy the master-2 on the NUC host **pippo02.example.
         {
             "name": "master-2",
             "state": "present",
-            "hypervisor_name": "pippo02.example.com",
+            "hypervisor_name": "pippo02.example.ca",
             "hypervisor_user": "root",
             "hypervisor_ssh_key": "~/.ssh/id_rsa",
             "hypervisor_image_dir": "/var/lib/libvirt/images",

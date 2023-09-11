@@ -104,7 +104,7 @@
   - name: Create a challenge for {{ domain }} using a account key file.
     acme_certificate:
       account_key_src: "certs-letsencrypt/account.key"
-      #account_email: "ocp4-lab@example.com"
+      #account_email: "ocp4-lab@example.ca"
       src: "certs-letsencrypt/{{ domain }}/cert.csr"
       cert: "certs-letsencrypt/{{ domain }}/cert.crt"
       challenge: dns-01
@@ -142,7 +142,7 @@
   - name: Let the challenge be validated and retrieve the cert and intermediate certificate
     acme_certificate:  # noqa no-handler
       account_key_src: "certs-letsencrypt/account.key"
-      #account_email: "ocp4-lab@example.com"
+      #account_email: "ocp4-lab@example.ca"
       src: "certs-letsencrypt/{{ domain }}/cert.csr"
       cert: "certs-letsencrypt/{{ domain }}/cert.crt"
       fullchain: "certs-letsencrypt/{{ domain }}/fullchain.crt"
