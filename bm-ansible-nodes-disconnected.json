@@ -11,7 +11,7 @@
             "vbmc_ip": "10.190.0.114",
             "vbmc_port": "623",
             "baremetal_ip": "10.188.0.5",
-            "provisioning_ip": "10.190.0.6",
+            "provisioning_ip": "10.190.0.5",
             "baremetal_last": "50"
         }
      ],
@@ -27,7 +27,7 @@
             "vbmc_ip": "10.190.0.115",
             "vbmc_port": "623",
             "baremetal_ip": "10.188.0.5",
-            "provisioning_ip": "10.190.0.6"
+            "provisioning_ip": "10.190.0.5"
         }
      ],
     "master_nodes": [

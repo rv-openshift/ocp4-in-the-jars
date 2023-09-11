@@ -24,7 +24,7 @@ baremetal_net:
   netmask: 255.255.255.0
   prefix: 24
   reverse: 0.188.10
-  gateway: 10.188.0.2
+  gateway: 10.188.0.1
   ntp: "207.34.48.31,162.159.200.1"
   dhcp_start: 10.188.0.90
   dhcp_end: 10.188.0.110
